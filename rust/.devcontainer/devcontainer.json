@@ -1,13 +1,9 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "Ubuntu",
+	"name": "Rust 1.89.0",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:noble",
-	"features": {
-		"ghcr.io/devcontainers/features/rust:1": {}
-	},
-
+	"image": "rust:1.89-slim-trixie",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
